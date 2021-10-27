@@ -1,0 +1,49 @@
+using System;
+
+/* link: https://www.codecademy.com/courses/learn-c-sharp/lessons/csharp-working-with-numbers/exercises/arithmetic-operators-csharp
+*
+* Exercise on Code Academy 
+* Arithmetic Operators
+* Tells current age on Earth and Jupiter
+*/
+
+namespace PlanetCalculations
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {  
+      // Your Age
+      int userAge = 30; //yes I am 30 currently
+
+      // Length of years on Jupiter (in Earth years)
+      double jupiterYears = 11.86;
+
+      // Age on Jupiter
+      double jupiterAge = userAge/jupiterYears;
+
+      // Time to Jupiter (it would take to fly to jupiter from earth)
+      double journeyToJupiter = 6.142466;
+
+      // New Age on Earth
+      double newEarthAge = userAge + journeyToJupiter;
+
+      // New Age on Jupiter
+      double newJupiterAge = newEarthAge/jupiterYears;
+
+      // Log calculations to console (it does not make sense to print these with no context the user would never know but ok)
+
+      /*Horrible exercise there are so many variabled not used. We print things with no Context... Not user friendly but an ok learning tool.*/
+
+      //I Will explain their context
+      Console.WriteLine($"My Current Age: {userAge}");
+      Console.WriteLine($"My Age on Jupiter if I lived there would be {jupiterAge}");
+      Console.WriteLine($"My age if I traveled to Jupiter would be {newEarthAge}");
+      Console.WriteLine($"My age on Jupiter would be {newJupiterAge}");
+      Console.WriteLine("Codeacademy only wanted me to print this");
+      Console.WriteLine(newEarthAge);
+      Console.WriteLine(newJupiterAge);
+    }
+  }
+}
+

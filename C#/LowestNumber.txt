@@ -1,0 +1,43 @@
+using System;
+/* I found this useful because java has built-in methods too but you have to import the math I have yet to find out what System package actually is codeacademy has failed me here*/
+
+
+
+/* Reference
+* https://www.codecademy.com/courses/learn-c-sharp/lessons/csharp-working-with-numbers/exercises/built-in-methods-numbers-csharp
+* Built-in Methods
+*
+* Determine which number is smaller using 
+* built-in methods
+*/
+
+namespace LowestNumber
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      // Starting variables 
+      int numberOne = 12932;
+      int numberTwo = -2828472;
+
+      // Use built-in methods and save to variable (they told me to round down)
+      double numberOneSqrt = Math.Floor(Math.Sqrt(numberOne)); //does this work like java?
+
+      // Use built-in methods and save to variable 
+      double numberTwoSqrt =  Math.Floor(Math.Sqrt(Math.Abs(numberTwo))); // you cant get the sqrt of a negative number trivially.
+
+
+      // Print the lowest number
+      Console.WriteLine(Math.Min(numberOneSqrt,numberTwoSqrt));
+
+      /*pretty lame exercise but I see it is 
+      * very similar to Java in syntax from 
+      * this exercise there are trick questions 
+      * which you are forced to fall into but 
+      * it promotes learning.*/
+
+    }
+  }
+}
+

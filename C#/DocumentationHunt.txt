@@ -1,0 +1,38 @@
+using System;
+
+/* Code academy refers you to .NET API documentation which is useful
+*/
+
+/* References
+* https://www.codecademy.com/courses/learn-c-sharp/lessons/csharp-working-with-numbers/exercises/built-in-methods-ii-numbers-csharp
+
+*
+* Using Documentation
+* They tell you nothing about the methods and
+* how to use them and expect you to look it up.
+* Execellent exercise.*/
+
+namespace DocumentationHunt{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+
+      double numberOne = 6.5;
+      double numberTwo = 4;
+
+      // Raise numberOne to the numberTwo power
+      Console.WriteLine(Math.Pow(numberOne, numberTwo));
+
+      // Round numberOne up
+      Console.WriteLine(Math.Ceiling(numberOne));
+
+      // Find the larger number between numberOne and numberTwo
+      Console.WriteLine(Math.Max(numberOne, numberTwo));
+
+
+// From the documentation System is just a package that contains many built-in methods. Almost like java.util and Java.lang
+    }
+  }
+}
+

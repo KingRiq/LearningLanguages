@@ -1,0 +1,15 @@
+/Users/riq/Documents/GitHub/LearningLanguages/C#/obj/Debug/net5.0/C#.csproj.AssemblyReference.cache
+/Users/riq/Documents/GitHub/LearningLanguages/C#/obj/Debug/net5.0/C#.GeneratedMSBuildEditorConfig.editorconfig
+/Users/riq/Documents/GitHub/LearningLanguages/C#/obj/Debug/net5.0/C#.AssemblyInfoInputs.cache
+/Users/riq/Documents/GitHub/LearningLanguages/C#/obj/Debug/net5.0/C#.AssemblyInfo.cs
+/Users/riq/Documents/GitHub/LearningLanguages/C#/obj/Debug/net5.0/C#.csproj.CoreCompileInputs.cache
+/Users/riq/Documents/GitHub/LearningLanguages/C#/bin/Debug/net5.0/C#.deps.json
+/Users/riq/Documents/GitHub/LearningLanguages/C#/bin/Debug/net5.0/C#.runtimeconfig.json
+/Users/riq/Documents/GitHub/LearningLanguages/C#/bin/Debug/net5.0/C#.runtimeconfig.dev.json
+/Users/riq/Documents/GitHub/LearningLanguages/C#/bin/Debug/net5.0/C#.dll
+/Users/riq/Documents/GitHub/LearningLanguages/C#/bin/Debug/net5.0/ref/C#.dll
+/Users/riq/Documents/GitHub/LearningLanguages/C#/bin/Debug/net5.0/C#.pdb
+/Users/riq/Documents/GitHub/LearningLanguages/C#/obj/Debug/net5.0/C#.dll
+/Users/riq/Documents/GitHub/LearningLanguages/C#/obj/Debug/net5.0/ref/C#.dll
+/Users/riq/Documents/GitHub/LearningLanguages/C#/obj/Debug/net5.0/C#.pdb
+/Users/riq/Documents/GitHub/LearningLanguages/C#/obj/Debug/net5.0/C#.genruntimeconfig.cache
